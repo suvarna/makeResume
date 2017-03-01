@@ -1,0 +1,264 @@
+
+<html>
+<head>
+<style>
+ div{
+  background-color:#0099ff;
+  margin: auto;
+  position: relative;
+  width: 800px;
+  height: 90px;
+  font-family: ubuntu;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: ubuntu;
+}
+.account-info label {
+  color: #395870;
+  display: block;
+font-family: ubuntu;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.account-info input {
+
+  border-radius:5px;
+  color: #636466;
+  padding: 10px;
+  font-size: 19px;
+  font-family: ubuntu;
+  margin-top: 5px;
+  width: 100%;
+}
+.button1 {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: #0099ff;
+  border: none;
+  color: #FFFFFF;
+  font-size: 28px;
+  padding:  10px;
+  position: relative;
+  width: 300px;
+  left: 490px;
+  top: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  right: 11px;
+  margin-top: -80px;
+  font-family: ubuntu;
+
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content:'>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -100px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 50px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.font
+    {
+        font-family: ubuntu;
+    }
+</style>
+</head>
+<body>
+<form action="form12.php" method="post">
+  <div class="font">
+   <h1> PERSONAL INFO : </h1> </div><br><br>
+<fieldset class="account-info">
+<table align="center">
+<tr>
+<td>
+Full name:
+  <input type="text" name="fname" placeholder="eg: Jhon Smith"><br><br><br><br>
+</td>
+<td>
+Address:
+  <input type="text" name="address" placeholder="Local Address"><br><br><br><br>
+</td>
+</tr>
+<tr>
+   <td>
+Nationality:
+  <input type="text" name="nationality" placeholder="eg: India"><br><br><br><br>
+</td>
+<td>
+DateOfBirth:
+  <input type="date" name="DOB"><br><br><br><br>
+</td>
+</tr>
+<tr>
+<td>
+  Email:
+  <input type="text" name="email" placeholder="eg: jsmith@gmail.com"><br><br><br><br>
+    </label>
+</td>
+<td>
+  PhoneNumber:
+  <input type="number" name="phoneno" placeholder="eg: 7875876534"><br><br><br><br>
+</td>
+</tr>
+</fieldset>
+</table>
+
+
+  <div class="font">
+   <h1> WORKING EXPERIENCE : </h1> </div><br><br><br><br>
+<fieldset class="account-info">
+<table align="center">
+<tr>
+<td>
+Company name:
+  <input type="text" name="companyname" placeholder="eg: vinsys"><br><br><br><br>
+</td>
+  <td>
+Job title:
+  <input type="text" name="jobtitle" placeholder="eg: Software Developer"><br><br><br><br>
+</td>
+</tr>
+<tr>
+   <td>
+Country:
+  <input type="text" name="country" placeholder="eg: India"><br><br><br><br>
+</td>
+<td>
+
+</td>
+</tr>
+ </td>
+</tr>
+<tr>
+<td>
+Date of Joining:  <input type="text" name="monthjoining" placeholder="eg: 21/04/2001" ><br><br><br><br>
+</td>
+<td>
+ Date of Resigning: <input type="text" name="monthending" placeholder="eg: 15/06/2014"><br><br><br><br>
+</td>
+</tr>
+</fieldset>
+</table>
+
+
+  <div class="font">
+   <h1> EDUCATION :</h1> </div><br><br><br><br>
+<fieldset class="account-info">
+<table align="center">
+<tr>
+<td>
+School name:
+  <input type="text" name="sname" placeholder="eg: J.H. Ambani School"><br><br><br><br>
+</td>
+<td>
+SSC %:
+  <input type="number" name="number1" placeholder="eg: 90%" ><br><br><br><br>
+</td>
+<td>
+PassingYear:
+  <input type="text" name="pyear" placeholder="eg: 2014"><br><br><br><br>
+</td>
+<td>
+</td>
+ </tr>
+
+<tr>
+ <td>
+ Junior college name:
+  <input type="text" name="cname" placeholder="eg: J.H. Ambani college"><br><br><br><br>
+</td>
+<td>
+HSC %:
+  <input type="number" name="number_2" placeholder="eg: 90%"><br><br><br><br>
+</td>
+<td>
+PassingYear:
+  <input type="text" name="pyear1" placeholder="eg: 2014"><br><br><br><br>
+</td>
+<td>
+</td>
+</tr>
+
+
+<td>
+Graduation:
+  <input type="text" name="graduation" placeholder="eg: Terna Engineering College"><br><br><br><br>
+</td>
+<td>
+Agg %:
+  <input type="text" name="Agg" placeholder="eg: 85%"><br><br><br><br>
+</td>
+<td>
+PassingYear:
+  <input type="text" name="gpYear" placeholder="eg: 2014"><br><br><br><br>
+</td>
+<td>
+</td>
+ </tr>
+    </table>
+    
+<div class="font">
+    <h1> Other :</h1></div><br><br>
+<fieldset class="account-info">
+    <table align="center">
+<tr>
+<td>
+Your Objective :
+  <input type="text" name="Objectives" placeholder="Objective"><br><br><br>
+</td>
+</tr>
+    
+<tr>        
+<td>
+Skills  :
+  <input type="text" name="skill" placeholder="eg. Problem Solving"><br><br><br>
+</td>
+</tr>
+        
+<tr>        
+<td>
+Projects :
+  <input type="text" name="project" placeholder="eg: Hotel Management System"><br><br><br><br>
+</td>    
+</tr>
+    
+</fieldset>
+</table>
+</form>
+<br><br>
+<button class="button1" id="getStarted"><span>Submit</span></button>
+    </div>
+</body>
+</html>
