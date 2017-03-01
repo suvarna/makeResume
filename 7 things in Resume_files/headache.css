@@ -1,0 +1,126 @@
+.section1
+{
+  background-color:#3ec7c2;
+  height: 200px;
+  margin: -10px;
+}
+.logo
+{
+position: relative;
+top: 0px;
+left: 450px;
+}
+.tagline
+{
+    text-align: center;
+    font-family: ubuntu;
+    font-size: 30px;
+    margin-top: 70px;
+}
+.h1
+{
+    color: black;
+    font-family: ubuntu;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 200px;
+    text-align: center;
+    margin-bottom: -380px;
+  }
+
+.p
+{
+    color: gray;
+    font-family: ubuntu;
+    font-size: 16px;
+    line-height: 20px;
+    text-indent: 0px;
+    margin: 320px;
+  }
+  #two
+  {
+    margin-top: -300px;
+  }
+  #three
+  {
+    margin-top: -300px;
+  }
+  #four
+  {
+    margin-top: -300px;
+  }
+  #five
+  {
+    margin-top: -300px;
+  }
+  #six
+  {
+    margin-top: -300px;
+  }
+  #seven
+  {
+    margin-top: -300px;
+  }
+
+  .myButton {
+      background: #3ec7c2;
+      -moz-border-radius:28px;
+      border-radius:28px;
+      border:1px solid white;
+      display:inline-block;
+      cursor:pointer;
+      color:#60cd9b;
+      font-family:ubuntu;
+      font-size:20px;
+      outline: none;
+      text-align: center;
+      width: 250px;
+      display: inline-block;
+      padding:10px ;
+  }
+  .myButton
+  {   color: black;
+      border: 2px solid black;
+  }
+
+  .myButton:hover
+  {
+      background-color: #3ec7c2;
+      color: white;
+  }
+  #up
+  {
+    position: relative;
+    top: -180px;
+    left: 510px;
+  }
+  #profile
+  {
+    position: relative;
+    top: -170px;
+    left: 510px;
+  }
+
+  .gray-footer
+  {
+      background-color: black;
+      height: 400px;
+      margin-left:-10px;
+      color: azure;
+      align-content: center;
+      text-align: center;
+      margin-right:-10px;
+      margin-bottom: 0px;
+  }
+  #footer
+  {
+      font-size: 20px;
+      font-family: ubuntu;
+  }
+#logout
+{
+    position: relative;
+    left: 0px;
+    top: 0px;
+     width: 00px; 
+}
